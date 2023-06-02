@@ -74,6 +74,7 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
         css={{
           p: 24,
           height: '100%',
+          backgroundColor: 'pink',
           '@bp800': {
             p: '$6',
           },

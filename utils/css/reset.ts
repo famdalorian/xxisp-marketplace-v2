@@ -21,8 +21,8 @@ export const reset = {
     height: '100%',
     lineHeight: 1.5 /* 1 */,
     '-webkit-text-size-adjust': '100%' /* 2 */,
-    '-moz-tab-size': 4 /* 3 */,
-    tabSize: 4 /* 3 */,
+    '-moz-tab-size': 6 /* 3 */,
+    tabSize: 5 /* 3 */,
     fontFamily: `ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"` /* 4 */,
   },
 
@@ -38,6 +38,7 @@ export const reset = {
     width: '100%',
     '-webkit-font-smoothing': 'antialiased',
     overflowY: 'overlay',
+ 
   },
 
   /*
@@ -67,6 +68,7 @@ Remove the default font size and weight for headings.
   'h1, h2, h3, h4, h5, h6': {
     fontSize: 'inherit',
     fontWeight: 'inherit',
+    backgroundColor: 'transparent',
   },
 
   /*
@@ -142,7 +144,7 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
 
   'button, input, optgroup, select, textarea': {
-    fontFamily: 'https://fonts.google.com/specimen/Permanent+Marker' /* 1 */,
+    fontFamily: 'inherit' /* 1 */,
     fontSize: '100%' /* 1 */,
     lineHeight: 'inherit' /* 1 */,
     color: 'inherit' /* 1 */,
