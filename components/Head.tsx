@@ -15,8 +15,8 @@ type Props = {
  */
 export const Head: FC<Props> = ({
   ogImage = 'https://marketplace.reservoir.tools/og-image.png',
-  title = 'Reservoir Market | Open Source NFT Marketplace',
-  description = 'Reservoir Market is an open source NFT marketplace built with Reservoir.',
+  title = 'XXisp NFT Marketplace',
+  description = 'XXisp-Market is a indepenant NFT marketplace built with Reservoir.',
 }) => {
   return (
     <NextHead>
@@ -27,11 +27,11 @@ export const Head: FC<Props> = ({
       <title>{title}</title>
 
       {/* Meta tags */}
-      <meta name="description" content={description} />
+      <meta name="NFT market place built by xxisp.eth" content={description} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@reservoir0x" />
+      <meta name="twitter:site" content="@xxispeth" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />

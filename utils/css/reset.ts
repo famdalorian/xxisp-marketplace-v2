@@ -93,7 +93,7 @@ Add the correct font weight in Edge and Safari.
 
   'code, kbd, samp, pre': {
     fontFamily: `'fontFamily.mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace` /* 1 */,
-    fontSize: '1em' /* 2 */,
+    fontSize: '6em' /* 2 */,
   },
 
   /*
@@ -101,7 +101,7 @@ Add the correct font size in all browsers.
 */
 
   small: {
-    fontSize: '80%',
+    fontSize: '90%',
   },
 
   /*
@@ -142,7 +142,7 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
 
   'button, input, optgroup, select, textarea': {
-    fontFamily: 'inherit' /* 1 */,
+    fontFamily: 'https://fonts.google.com/specimen/Permanent+Marker' /* 1 */,
     fontSize: '100%' /* 1 */,
     lineHeight: 'inherit' /* 1 */,
     color: 'inherit' /* 1 */,

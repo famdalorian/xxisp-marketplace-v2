@@ -86,17 +86,22 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
             css={{ mx: 'auto', maxWidth: 728, pt: '$5', textAlign: 'center' }}
           >
             <Text style="h3" css={{ mb: 24 }}>
-              Open Source Marketplace
+              XXisp Marketplace
             </Text>
             <Text style="body1" css={{ mb: 48 }}>
-              Reservoir Marketplace is an open-source project that showcases the
-              latest and greatest features of the Reservoir Platform.
+              Discover the vibrant world of XXisp NFT Marketplace, where
+              independent artists showcase their latest and greatest creations.
+              Immerse yourself in a diverse collection of unique and exclusive
+              digital artworks, music, collectibles, and more. With our
+              commitment to supporting artists, we only charge a minimal 1%
+              market fee, ensuring that the majority of the proceeds go directly
+              to the talented creators. Join us in revolutionizing the NFT space
+              and be part of a thriving community that celebrates creativity and
+              empowers artists. Explore, collect, and own your favorite NFTs on
+              XXisp NFT Marketplace today.
             </Text>
-            <a
-              href="https://github.com/reservoirprotocol/marketplace-v2"
-              target="_blank"
-            >
-              <Button color="gray3">View Source Code</Button>
+            <a href="https://xxisp.uk" target="_blank">
+              <Button color="gray3">Back to XXisp HQ</Button>
             </a>
           </Flex>
         )}
@@ -148,7 +153,6 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
             </Link>
           </Box>
         </Flex>
-        <Footer />
       </Box>
     </Layout>
   )

@@ -55,17 +55,18 @@ const Navbar = () => {
       }}
       align="center"
       justify="between"
-    >
+    >    
       <Box css={{ flex: 1 }}>
         <Flex align="center">
           <Link href="/">
             <Box css={{ width: 34, cursor: 'pointer' }}>
               <Image
                 src="/reservoirLogo.svg"
-                width={34}
+                width={74}
                 height={39}
                 alt="Reservoir"
               />
+          
             </Box>
           </Link>
         </Flex>
@@ -133,8 +134,8 @@ const Navbar = () => {
             <Link href="/portfolio">
               <NavItem active={router.pathname == '/portfolio'}>Sell</NavItem>
             </Link>
-            <Link href="https://docs.reservoir.tools/docs">
-              <NavItem active={false}>Docs</NavItem>
+            <Link href="https://xxisp.uk">
+              <NavItem active={false}>XXisp-HQ</NavItem>
             </Link>
           </Flex>
         </Flex>
